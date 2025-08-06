@@ -11,7 +11,7 @@ export default function PrivacyPolicyPage() {
           <div className="prose prose-invert max-w-none">
             <h2 className="text-xl md:text-2xl font-bold premium-text mb-4">Úvod</h2>
             <p>
-              Cink™ ("my", "nás", nebo "naše společnost") respektuje vaše soukromí. Tyto zásady ochrany osobních údajů vysvětlují, jak shromažďujeme, používáme, ukládáme a sdílíme informace, které nám poskytujete při používání našich webových stránek a služeb.
+              Martin Svarc ("my", "nás", nebo "naše společnost") respektuje vaše soukromí. Tyto zásady ochrany osobních údajů vysvětlují, jak shromažďujeme, používáme, ukládáme a sdílíme informace, které nám poskytujete při používání našich webových stránek a služeb.
             </p>
 
             <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Právní základ zpracování (článek 6 GDPR)</h2>
@@ -111,7 +111,7 @@ export default function PrivacyPolicyPage() {
             <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Kontakt</h2>
             <p>
               Otázky? Napište nám na{" "}
-              <span className="premium-text font-semibold">privacy@cinktm.com</span>
+              <span className="premium-text font-semibold">martinsvarcbus@gmail.com</span>
             </p>
 
             <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Pověřenec pro ochranu osobních údajů (DPO)</h2>
@@ -119,9 +119,9 @@ export default function PrivacyPolicyPage() {
               Pro otázky týkající se ochrany osobních údajů můžete kontaktovat našeho pověřence pro ochranu osobních údajů:
             </p>
             <p className="mt-2">
-              Email: <span className="premium-text font-semibold">dpo@cinktm.com</span><br />
-              Adresa: [DOPLŇTE ADRESU DPO]<br />
-              Telefon: [DOPLŇTE TELEFON DPO]
+              Email: <span className="premium-text font-semibold">martinsvarcbus@gmail.com</span><br />
+              Adresa: Stachy 230, 384 73<br />
+              Telefon: +420722356856
             </p>
           </div>
 

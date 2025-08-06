@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-5xl mx-auto text-center">
         {/* Copyright */}
         <div className="mb-8">
-          <p className="text-[rgb(var(--muted-foreground))] text-sm">© 2025 Cink™. All rights reserved.</p>
+          <p className="text-[rgb(var(--muted-foreground))] text-sm">© 2025 Martin Svarc. All rights reserved.</p>
         </div>
 
         {/* Legal Disclaimers */}
@@ -27,13 +27,13 @@ export default function Footer() {
           <div className="w-24 h-px bg-gradient-to-r from-transparent via-[rgb(var(--sunset-gold))]/30 to-transparent mx-auto"></div>
 
           <p className="max-w-4xl mx-auto">
-            This site is owned and operated by Cink™. By using it, you agree to our Terms of Service and Privacy Policy.
+            This site is owned and operated by Martin Svarc. By using it, you agree to our Terms of Service and Privacy Policy.
           </p>
 
           <div className="w-24 h-px bg-gradient-to-r from-transparent via-[rgb(var(--sunset-gold))]/30 to-transparent mx-auto"></div>
 
           <p className="max-w-4xl mx-auto">
-            Cink™ provides elite systems, consulting, and training in marketing and communication. We do not offer business opportunities, quick-rich schemes, or guaranteed income. Our job is to deliver tools, strategies, and support — your results depend on your execution.
+            Martin Svarc provides elite systems, consulting, and training in marketing and communication. We do not offer business opportunities, quick-rich schemes, or guaranteed income. Our job is to deliver tools, strategies, and support — your results depend on your execution.
           </p>
 
           <div className="w-24 h-px bg-gradient-to-r from-transparent via-[rgb(var(--sunset-gold))]/30 to-transparent mx-auto"></div>
@@ -57,7 +57,7 @@ export default function Footer() {
           <div className="w-24 h-px bg-gradient-to-r from-transparent via-[rgb(var(--sunset-gold))]/30 to-transparent mx-auto"></div>
 
           <p className="max-w-4xl mx-auto">
-            We may reference third-party tools or services. These are for context only. Occasionally, we may collaborate with partners — some of which may share ownership or interests with Cink™.
+            We may reference third-party tools or services. These are for context only. Occasionally, we may collaborate with partners — some of which may share ownership or interests with Martin Svarc.
           </p>
         </div>
 

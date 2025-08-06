@@ -36,11 +36,11 @@ const balboa = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "Cink™ - Digital Model Club",
-    template: "%s | Cink™",
+    default: "Martin Svarc - Digital Model Club",
+    template: "%s | Martin Svarc",
   },
   description:
-    "Cink™ provides elite AI voice models and marketing systems. Join our team of young, ambitious professionals working online and connecting offline. 20-50k monthly from home comfort.",
+    "Martin Svarc provides elite AI voice models and marketing systems. Join our team of young, ambitious professionals working online and connecting offline. 20-50k monthly from home comfort.",
   keywords: [
     "AI voice models",
     "marketing systems",
@@ -53,9 +53,9 @@ export const metadata: Metadata = {
     "online work",
     "Czech tech jobs",
   ],
-  authors: [{ name: "Cink™" }],
-  creator: "Cink™",
-  publisher: "Cink™",
+  authors: [{ name: "Martin Svarc" }],
+  creator: "Martin Svarc",
+  publisher: "Martin Svarc",
   formatDetection: {
     email: false,
     address: false,
@@ -69,10 +69,10 @@ export const metadata: Metadata = {
       type: "website",
       locale: "cs_CZ",
       url: "https://cinktm.com",
-      siteName: "Cink™",
-      title: "Cink™ - Digital Model Club",
+      siteName: "Martin Svarc",
+      title: "Martin Svarc - Digital Model Club",
     description:
-      "Cink™ provides elite AI voice models and marketing systems. Join our team of young, ambitious professionals working online and connecting offline.",
+      "Martin Svarc provides elite AI voice models and marketing systems. Join our team of young, ambitious professionals working online and connecting offline.",
     images: [
       {
         url: "https://res.cloudinary.com/dmbzcxhjn/image/upload/v1753833753/Screenshot_2025-07-30_020142_cb6pmw.png",
@@ -84,11 +84,11 @@ export const metadata: Metadata = {
   },
       twitter: {
       card: "summary_large_image",
-      title: "Cink™ - Digital Model Club",
+      title: "Martin Svarc - Digital Model Club",
     description:
-      "Cink™ provides elite AI voice models and marketing systems. Join our team of young, ambitious professionals.",
+      "Martin Svarc provides elite AI voice models and marketing systems. Join our team of young, ambitious professionals.",
     images: ["https://res.cloudinary.com/dmbzcxhjn/image/upload/v1753833753/Screenshot_2025-07-30_020142_cb6pmw.png"],
-    creator: "@cinktm",
+    creator: "@martinsvarc",
   },
   robots: {
     index: true,
@@ -125,7 +125,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//res.cloudinary.com" />
         <link rel="dns-prefetch" href="//n8n.automatedsolarbiz.com" />
 
-        <link rel="canonical" href="https://cinktm.com" />
+        <link rel="canonical" href="https://martinsvarc.com" />
         <link rel="icon" href="https://res.cloudinary.com/dmbzcxhjn/image/upload/v1753833753/Screenshot_2025-07-30_020142_cb6pmw.png" sizes="any" />
         <link rel="icon" href="https://res.cloudinary.com/dmbzcxhjn/image/upload/v1753833753/Screenshot_2025-07-30_020142_cb6pmw.png" type="image/png" />
         <link rel="apple-touch-icon" href="https://res.cloudinary.com/dmbzcxhjn/image/upload/v1753833753/Screenshot_2025-07-30_020142_cb6pmw.png" />
@@ -139,19 +139,19 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "Cink™",
-              url: "https://cinktm.com",
-              logo: "https://res.cloudinary.com/dmbzcxhjn/image/upload/v1753833753/Screenshot_2025-07-30_020142_cb6pmw.png",
-              description:
-                "Cink™ provides elite AI voice models and marketing systems. Join our team of young, ambitious professionals working online and connecting offline.",
-              contactPoint: {
-                "@type": "ContactPoint",
-                email: "support@cinktm.com",
-                contactType: "customer service",
-                availableLanguage: "Czech",
-              },
+                          "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "Martin Svarc",
+            url: "https://martinsvarc.com",
+            logo: "https://res.cloudinary.com/dmbzcxhjn/image/upload/v1753833753/Screenshot_2025-07-30_020142_cb6pmw.png",
+            description:
+              "Martin Svarc provides elite AI voice models and marketing systems. Join our team of young, ambitious professionals working online and connecting offline.",
+            contactPoint: {
+              "@type": "ContactPoint",
+              email: "martinsvarcbus@gmail.com",
+              contactType: "customer service",
+              availableLanguage: "Czech",
+            },
               address: {
                 "@type": "PostalAddress",
                 addressCountry: "CZ",
