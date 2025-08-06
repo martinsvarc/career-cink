@@ -11,13 +11,10 @@ export default function Footer() {
 
         {/* Legal Disclaimers */}
         <div className="text-sm leading-relaxed space-y-6 text-[rgb(var(--muted-foreground))] mb-8">
-          {/* Czech Legal Information */}
-          <div className="bg-[rgb(var(--charcoal))] border border-[rgb(var(--velvet-gray))] rounded-lg p-4 max-w-4xl mx-auto">
-            <h4 className="text-[#ffde59] font-semibold mb-3 text-xs">
-              📋 Právní informace o pracovní pozici
-            </h4>
-            <div className="space-y-1 text-xs text-gray-300">
-              <p><strong>Zaměstnavatel:</strong> Martin Svarc ICO: 09468757</p>
+          {/* Czech Legal Information - Subtle Integration */}
+          <div className="mt-8 max-w-4xl mx-auto">
+            <div className="space-y-1 text-xs text-neutral-500">
+              <p><strong>Zaměstnavatel:</strong> <span className="hover:underline cursor-pointer">Martin Svarc</span> ICO: <span className="hover:underline cursor-pointer">09468757</span></p>
               <p><strong>Typ pracovní pozice:</strong> Práce na fakturu - musíte být OSVČ</p>
               <p><strong>Prohlášení:</strong> Tato společnost je zaměstnavatelem poskytujícím rovné příležitosti.</p>
               <p><strong>Poznámka:</strong> Výše uvedené výdělky jsou orientační a závisí na výkonu a výsledcích.</p>
