@@ -7,8 +7,8 @@ export default function WeAppreciateYouPage() {
   return (
     <>
       <Head>
-        <title>Děkujeme vám | Cink™</title>
-        <meta name="description" content="Děkujeme za váš zájem o Cink™" />
+              <title>Děkujeme vám | Martin Svarc</title>
+      <meta name="description" content="Děkujeme za váš zájem o Martin Svarc" />
       </Head>
       
       <div className="min-h-screen" style={{

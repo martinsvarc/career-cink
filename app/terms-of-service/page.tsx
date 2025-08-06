@@ -11,12 +11,12 @@ export default function TermsOfServicePage() {
           <div className="prose prose-invert max-w-none">
             <h2 className="text-xl md:text-2xl font-bold premium-text mb-4">1. Agreement to Terms</h2>
             <p>
-              By accessing or using the website operated by Cink™ ("we", "us", or "our"), you agree to these Terms of Service. If you do not accept these terms in full, you must not use this website or any associated services.
+              By accessing or using the website operated by Martin Svarc ("we", "us", or "our"), you agree to these Terms of Service. If you do not accept these terms in full, you must not use this website or any associated services.
             </p>
 
             <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">2. Intellectual Property</h2>
             <p>
-              All content on this site — including but not limited to code, design, visuals, video, audio, and brand marks — is the exclusive property of Cink™ or its licensors.
+              All content on this site — including but not limited to code, design, visuals, video, audio, and brand marks — is the exclusive property of Martin Svarc or its licensors.
             </p>
             <p className="mt-4">
               You may not copy, distribute, reproduce, or use any part of the site for commercial purposes without written consent.
@@ -40,14 +40,14 @@ export default function TermsOfServicePage() {
             </p>
 
             <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">5. Payments</h2>
-            <p>Cink™ accepts Visa, Mastercard, Amex, and Discover.</p>
+                          <p>Martin Svarc accepts Visa, Mastercard, Amex, and Discover.</p>
             <p className="mt-4">
               By making a purchase, you agree to provide accurate billing info and update it when necessary. Charges are processed securely.
             </p>
 
             <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">6. Cancellations</h2>
             <p>
-              Subscriptions may be canceled at any time via your account or by contacting support@cinktm.com.
+              Subscriptions may be canceled at any time via your account or by contacting martinsvarcbus@gmail.com.
             </p>
             <p className="mt-4">
               Cancellations take effect at the end of the billing period. No partial refunds unless otherwise specified.
@@ -78,12 +78,12 @@ export default function TermsOfServicePage() {
 
             <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">9. Limitation of Liability</h2>
             <p>
-              Cink™ is not liable for indirect, incidental, or consequential damages — including loss of profit, data, or business — even if we were advised of the possibility.
+              Martin Svarc is not liable for indirect, incidental, or consequential damages — including loss of profit, data, or business — even if we were advised of the possibility.
             </p>
 
             <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">10. Indemnification</h2>
             <p>
-              You agree to indemnify and hold Cink™, its affiliates, team members, and partners harmless from any claims, damages, or legal fees arising from your use of the site or violation of these terms.
+              You agree to indemnify and hold Martin Svarc, its affiliates, team members, and partners harmless from any claims, damages, or legal fees arising from your use of the site or violation of these terms.
             </p>
 
             <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">11. Changes</h2>
@@ -96,7 +96,7 @@ export default function TermsOfServicePage() {
               For questions, disputes, or support:
             </p>
             <p className="mt-2">
-              📧 <span className="premium-text font-semibold">support@cinktm.com</span>
+              📧 <span className="premium-text font-semibold">martinsvarcbus@gmail.com</span>
             </p>
           </div>
 
@@ -120,7 +120,7 @@ export default function TermsOfServicePage() {
       {/* Footer */}
       <footer className="premium-gradient-subtle py-6 md:py-8">
         <div className="container mx-auto px-4 text-center max-w-6xl">
-          <p className="text-sm md:text-base text-black">Copyright 2025 Cink™</p>
+          <p className="text-sm md:text-base text-black">Copyright 2025 Martin Svarc</p>
           <div className="flex justify-center gap-4 md:gap-6 mt-2">
             <Link
               href="/privacy-policy"

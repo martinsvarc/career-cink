@@ -116,7 +116,7 @@ export default function PrivacyPolicyPage() {
 
             <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Registrace zpracování údajů</h2>
             <p className="mt-2">
-              <strong>Číslo registrace zpracování údajů:</strong> P1234567 (nahraďte skutečným číslem, pokud existuje)
+              Naše zpracování osobních údajů je v souladu s nařízením GDPR (EU 2016/679). Společnost Martin Svarc není povinna být registrována u ÚOOÚ.
             </p>
 
             <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Pověřenec pro ochranu osobních údajů (DPO)</h2>
@@ -150,7 +150,7 @@ export default function PrivacyPolicyPage() {
       {/* Footer */}
       <footer className="premium-gradient-subtle py-6 md:py-8">
         <div className="container mx-auto px-4 text-center max-w-6xl">
-          <p className="text-sm md:text-base text-black">Copyright 2025 Cink™</p>
+          <p className="text-sm md:text-base text-black">Copyright 2025 Martin Svarc</p>
           <div className="flex justify-center gap-4 md:gap-6 mt-2">
             <Link
               href="/privacy-policy"

@@ -78,7 +78,7 @@ export const metadata: Metadata = {
         url: "https://res.cloudinary.com/dmbzcxhjn/image/upload/v1753833753/Screenshot_2025-07-30_020142_cb6pmw.png",
         width: 1200,
         height: 630,
-        alt: "Cink™ - Elite AI Voice Models",
+                        alt: "Martin Svarc - Elite AI Voice Models",
       },
     ],
   },

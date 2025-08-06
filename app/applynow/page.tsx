@@ -734,9 +734,6 @@ export default function ApplyNowPage() {
              <h2 className="text-base sm:text-lg md:text-xl font-semibold text-white/80 leading-tight mt-2">
                (IDEÁLNÍ KE ŠKOLE)
              </h2>
-             <p className="text-xs mt-1 italic text-neutral-500">
-               *Výdělky závisí na výkonu a výsledcích. Nejsou garantovány.
-             </p>
           </div>
         </div>
 
