@@ -12,6 +12,7 @@ import ApplicationExitTracker from "../components/application-exit-tracker"
 import { autoFillUserData, storeUserData } from "../utils/auto-fill-user-data"
 import { ChevronRight, Upload, FileVideo } from "lucide-react"
 import UrgencyBanner from "../components/urgency-banner"
+import Footer from "../components/footer"
 // Import the tracking functions
 import {
   trackContinueClick,
@@ -1253,22 +1254,10 @@ export default function ApplyNowPage() {
 
         {/* Urgency Banner - Outside the card */}
         {currentStep === 1 && <UrgencyBanner />}
-
-        {/* Legal Disclaimers */}
-        <div className="mt-8 sm:mt-12 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-[rgb(var(--charcoal))] border border-[rgb(var(--velvet-gray))] rounded-lg p-4 sm:p-6">
-            <h4 className="text-sm font-semibold text-[#ffde59] mb-3">
-              📋 Právní informace o pracovní pozici
-            </h4>
-            <div className="space-y-2 text-xs text-gray-300">
-              <p><strong>Zaměstnavatel:</strong> Cink™ s.r.o., IČO: [DOPLŇTE IČO]</p>
-              <p><strong>Typ pracovní pozice:</strong> Smluvní spolupráce / Částečný úvazek</p>
-              <p><strong>Prohlášení:</strong> Tato společnost je zaměstnavatelem poskytujícím rovné příležitosti.</p>
-              <p><strong>Poznámka:</strong> Výše uvedené výdělky jsou orientační a závisí na výkonu a výsledcích.</p>
-            </div>
-          </div>
-        </div>
       </main>
+      
+      {/* Footer with Legal Disclaimers */}
+      <Footer />
         </div>
       </div>
     )
