@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 import localFont from "next/font/local"
 import HotjarScript from "./components/hotjar-script"
+import GDPRCookieBanner from "./components/gdpr-cookie-banner"
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Suspense } from "react"
@@ -167,6 +168,7 @@ export default function RootLayout({
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />
         <SpeedInsights />
+        <GDPRCookieBanner />
       </body>
     </html>
   )

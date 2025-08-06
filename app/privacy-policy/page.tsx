@@ -9,74 +9,119 @@ export default function PrivacyPolicyPage() {
       <main className="flex-1 container mx-auto px-4 py-8 md:py-12 max-w-4xl">
         <div className="premium-card rounded-xl p-6 md:p-8">
           <div className="prose prose-invert max-w-none">
-            <h2 className="text-xl md:text-2xl font-bold premium-text mb-4">Introduction</h2>
+            <h2 className="text-xl md:text-2xl font-bold premium-text mb-4">Úvod</h2>
             <p>
-              Cink™ ("we", "us", or "our") respects your privacy. This Privacy Policy explains how we collect, use, store, and share information you provide while using our website and services.
+              Cink™ ("my", "nás", nebo "naše společnost") respektuje vaše soukromí. Tyto zásady ochrany osobních údajů vysvětlují, jak shromažďujeme, používáme, ukládáme a sdílíme informace, které nám poskytujete při používání našich webových stránek a služeb.
             </p>
 
-            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">What We Collect</h2>
-            <p>We may collect the following types of information:</p>
+            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Právní základ zpracování (článek 6 GDPR)</h2>
+            <p>Vaše osobní údaje zpracováváme na základě:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>
-                <strong>Personal Identifiers:</strong> Name, email, phone number, or any contact details you provide
+                <strong>Plný souhlas (čl. 6 odst. 1 písm. a) GDPR):</strong> Pro marketingové účely a analytické cookies
               </li>
               <li>
-                <strong>Technical Data:</strong> IP address, device type, browser, location, and browsing behavior
+                <strong>Plnění smlouvy (čl. 6 odst. 1 písm. b) GDPR):</strong> Pro zpracování vaší přihlášky na pracovní pozici
               </li>
               <li>
-                <strong>Usage Data:</strong> Interactions with our website, including clicks, page views, and navigation paths
-              </li>
-              <li>
-                <strong>Third-Party Data:</strong> Information received from tools, platforms, or partners we use for marketing or analytics
+                <strong>Oprávněný zájem (čl. 6 odst. 1 písm. f) GDPR):</strong> Pro zlepšení našich služeb a bezpečnost
               </li>
             </ul>
 
-            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">How We Collect It</h2>
+            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Jaké údaje shromažďujeme</h2>
+            <p>Můžeme shromažďovat následující typy informací:</p>
             <ul className="list-disc pl-6 space-y-2">
-              <li><strong>Directly from you:</strong> When you fill out forms, contact us, or subscribe</li>
-              <li><strong>Automatically:</strong> Through cookies, tracking tools, and session data</li>
-              <li><strong>Via partners:</strong> From advertising platforms, CRM tools, or integrations</li>
+              <li>
+                <strong>Osobní identifikátory:</strong> Jméno, email, telefonní číslo nebo jiné kontaktní údaje, které poskytnete
+              </li>
+              <li>
+                <strong>Technická data:</strong> IP adresa, typ zařízení, prohlížeč, lokalizace a chování při procházení
+              </li>
+              <li>
+                <strong>Data o používání:</strong> Interakce s našimi webovými stránkami včetně kliknutí, zobrazení stránek a navigačních cest
+              </li>
+              <li>
+                <strong>Data třetích stran:</strong> Informace přijaté od nástrojů, platforem nebo partnerů, které používáme pro marketing nebo analýzu
+              </li>
             </ul>
 
-            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">How We Use It</h2>
-            <p>Your data helps us:</p>
+            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Jak je shromažďujeme</h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Provide and improve our services</li>
-              <li>Respond to your inquiries or requests</li>
-              <li>Send transactional or marketing communications</li>
-              <li>Comply with legal obligations or enforce our Terms</li>
-              <li>Optimize user experience and measure performance</li>
+              <li><strong>Přímo od vás:</strong> Když vyplníte formuláře, kontaktujete nás nebo se přihlásíte k odběru</li>
+              <li><strong>Automaticky:</strong> Prostřednictvím cookies, sledovacích nástrojů a dat o relaci</li>
+              <li><strong>Prostřednictvím partnerů:</strong> Z reklamních platforem, CRM nástrojů nebo integrací</li>
             </ul>
 
-            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Sharing Your Info</h2>
-            <p>We may share data with:</p>
+            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Jak je používáme</h2>
+            <p>Vaše data nám pomáhají:</p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Trusted service providers (hosting, email, analytics)</li>
-              <li>Our affiliates or subsidiaries</li>
-              <li>Buyers or partners in the event of a business sale or merger</li>
-              <li>As required by law or to protect our rights</li>
+              <li>Poskytovat a zlepšovat naše služby</li>
+              <li>Reagovat na vaše dotazy nebo požadavky</li>
+              <li>Odesílat transakční nebo marketingové komunikace</li>
+              <li>Plnit právní povinnosti nebo vymáhat naše podmínky</li>
+              <li>Optimalizovat uživatelskou zkušenost a měřit výkonnost</li>
+            </ul>
+
+            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Sdílení vašich informací</h2>
+            <p>Můžeme sdílet data s:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Důvěryhodnými poskytovateli služeb (hosting, email, analýza)</li>
+              <li>Našimi pobočkami nebo dceřinými společnostmi</li>
+              <li>Kupci nebo partnery v případě prodeje nebo fúze podniku</li>
+              <li>Podle zákona nebo k ochraně našich práv</li>
             </ul>
             <p className="mt-4">
-              <strong>We never sell your personal data.</strong>
+              <strong>Nikdy neprodáváme vaše osobní údaje.</strong>
             </p>
 
-            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Data Security</h2>
+            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Vaše práva (články 15-22 GDPR)</h2>
+            <p>Máte právo:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><strong>Právo na přístup (čl. 15):</strong> Získat informace o tom, jaké údaje o vás zpracováváme</li>
+              <li><strong>Právo na opravu (čl. 16):</strong> Opravit nepřesné nebo neúplné údaje</li>
+              <li><strong>Právo na výmaz (čl. 17):</strong> Požádat o smazání vašich údajů ("právo být zapomenut")</li>
+              <li><strong>Právo na omezení zpracování (čl. 18):</strong> Omezit způsob, jakým zpracováváme vaše údaje</li>
+              <li><strong>Právo na přenositelnost (čl. 20):</strong> Získat vaše údaje ve strukturovaném formátu</li>
+              <li><strong>Právo vznést námitku (čl. 21):</strong> Namítnout proti zpracování vašich údajů</li>
+              <li><strong>Právo odvolat souhlas (čl. 7):</strong> Odvolat souhlas kdykoliv</li>
+            </ul>
+
+            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Doba uchovávání údajů</h2>
+            <p>Vaše osobní údaje uchováváme pouze po dobu nezbytně nutnou:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><strong>Přihlášky na pracovní pozice:</strong> 2 roky od data přihlášky</li>
+              <li><strong>Marketingové údaje:</strong> Do odvolání souhlasu nebo 3 roky</li>
+              <li><strong>Analytická data:</strong> 26 měsíců</li>
+              <li><strong>Technické logy:</strong> 12 měsíců</li>
+            </ul>
+
+            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Bezpečnost údajů</h2>
             <p>
-              We protect your data with modern security measures, including encryption, firewalls, and secure access controls.
+              Chráníme vaše údaje moderními bezpečnostními opatřeními včetně šifrování, firewallů a bezpečnostních přístupových kontrol.
             </p>
             <p className="mt-4">
-              However, no internet transmission is 100% secure. Submitting information is at your own risk.
+              Nicméně žádný internetový přenos není 100% bezpečný. Odesílání informací je na vaše vlastní riziko.
             </p>
 
-            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Policy Updates</h2>
+            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Aktualizace zásad</h2>
             <p>
-              We may update this policy as needed. If material changes occur, we'll notify you on this site. Please review it periodically.
+              Tyto zásady můžeme podle potřeby aktualizovat. Pokud dojde k významným změnám, upozorníme vás na těchto stránkách. Prosím, pravidelně je kontrolujte.
             </p>
 
-            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Contact</h2>
+            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Kontakt</h2>
             <p>
-              Questions? Email us at{" "}
+              Otázky? Napište nám na{" "}
               <span className="premium-text font-semibold">privacy@cinktm.com</span>
+            </p>
+
+            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Pověřenec pro ochranu osobních údajů (DPO)</h2>
+            <p>
+              Pro otázky týkající se ochrany osobních údajů můžete kontaktovat našeho pověřence pro ochranu osobních údajů:
+            </p>
+            <p className="mt-2">
+              Email: <span className="premium-text font-semibold">dpo@cinktm.com</span><br />
+              Adresa: [DOPLŇTE ADRESU DPO]<br />
+              Telefon: [DOPLŇTE TELEFON DPO]
             </p>
           </div>
 
