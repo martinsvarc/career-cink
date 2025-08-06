@@ -70,7 +70,7 @@ export default function GDPRCookieBanner() {
   }
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-sm border-t border-gray-700 p-4 sm:p-6">
+    <div className="fixed bottom-0 left-0 right-0 z-50 bg-black bg-opacity-80 backdrop-blur-sm border-t border-gray-700 p-4 sm:p-6 w-full">
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
           {/* Content */}
@@ -150,20 +150,20 @@ export default function GDPRCookieBanner() {
           <div className="flex flex-col sm:flex-row gap-2 lg:flex-col lg:min-w-[200px]">
             <Button
               onClick={handleAcceptAll}
-              className="bg-[#ffde59] hover:bg-[#ffed4e] text-black font-medium"
+              className="w-full sm:w-auto bg-[#ffde59] hover:bg-[#ffed4e] text-black font-medium"
             >
               Přijmout vše
             </Button>
             <Button
               onClick={handleAcceptSelected}
-              className="bg-transparent border border-[#ffde59] text-[#ffde59] hover:bg-[#ffde59]/10"
+              className="w-full sm:w-auto bg-transparent border border-[#ffde59] text-[#ffde59] hover:bg-[#ffde59]/10"
             >
               Přijmout vybrané
             </Button>
             <Button
               onClick={handleRejectAll}
               variant="outline"
-              className="border-gray-600 text-gray-300 hover:bg-gray-800"
+              className="w-full sm:w-auto border-gray-600 text-gray-300 hover:bg-gray-800"
             >
               Odmítnout vše
             </Button>

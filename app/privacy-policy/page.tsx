@@ -114,6 +114,11 @@ export default function PrivacyPolicyPage() {
               <span className="premium-text font-semibold">martinsvarcbus@gmail.com</span>
             </p>
 
+            <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Registrace zpracování údajů</h2>
+            <p className="mt-2">
+              <strong>Číslo registrace zpracování údajů:</strong> P1234567 (nahraďte skutečným číslem, pokud existuje)
+            </p>
+
             <h2 className="text-xl md:text-2xl font-bold premium-text mt-8 mb-4">Pověřenec pro ochranu osobních údajů (DPO)</h2>
             <p>
               Pro otázky týkající se ochrany osobních údajů můžete kontaktovat našeho pověřence pro ochranu osobních údajů:

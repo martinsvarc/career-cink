@@ -729,11 +729,14 @@ export default function ApplyNowPage() {
         <div className="mb-8 sm:mb-10 md:mb-12">
           <div className="flex flex-col items-center text-center space-y-2 sm:space-y-3">
                          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white leading-tight font-bold">
-               VYDĚLEJ 20–50K Z DOMOVA
+               VYDĚLEJ 20–50K Z DOMOVA*
              </h1>
              <h2 className="text-base sm:text-lg md:text-xl font-semibold text-white/80 leading-tight mt-2">
                (IDEÁLNÍ KE ŠKOLE)
              </h2>
+             <p className="text-xs mt-1 italic text-neutral-500">
+               *Výdělky závisí na výkonu a výsledcích. Nejsou garantovány.
+             </p>
           </div>
         </div>
 
@@ -1061,6 +1064,9 @@ export default function ApplyNowPage() {
                   <p className="text-sm text-[#ffde59]/80 mb-4">
                     Hledáme lidi, kteří zvládnou držet pravidelný večerní režim.
                   </p>
+                  <p className="text-xs text-[#ffde59]/60 mb-4 p-3 bg-[rgb(var(--charcoal))] border border-[rgb(var(--velvet-gray))] rounded-lg">
+                    <strong>Pracovní doba:</strong> 17:00 – 00:00, dle vaší dostupnosti. Nejedná se o pracovní poměr – jedná se o flexibilní spolupráci na fakturu (OSVČ).
+                  </p>
 
                   <div className="space-y-3 sm:space-y-4">
                     <div className="grid grid-cols-1 gap-3 sm:gap-4">
@@ -1254,6 +1260,13 @@ export default function ApplyNowPage() {
 
         {/* Urgency Banner - Outside the card */}
         {currentStep === 1 && <UrgencyBanner />}
+
+        {/* Earnings Disclaimer Block */}
+        <div className="earnings-disclaimer text-sm text-neutral-500 p-4 border-t border-gray-300 mt-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p><strong>Důležité:</strong> Uvedené výdělky jsou orientační a závisí na vašem výkonu. 
+          Nezaručujeme konkrétní výsledky. Spolupráce probíhá na fakturu jako OSVČ. 
+          Spolupráci lze kdykoli ukončit oběma stranami bez udání důvodu.</p>
+        </div>
       </main>
       
       {/* Footer with Legal Disclaimers */}
